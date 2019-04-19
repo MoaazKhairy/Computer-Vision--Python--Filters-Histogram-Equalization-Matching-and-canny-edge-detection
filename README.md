@@ -2,9 +2,9 @@
 <h1><center>Task 2 CV</center></h1>
 <h3><center> Group 5 </center></h3>
 # Names: 
-## Abdelrahman Ahmed Ramzy  
-## Ahmed Fawzy                                    
-## Moaz Khairy                                       
+## Abdelrahman Ahmed Ramzy  <br>
+## Ahmed Fawzy <br>                                   
+## Moaz Khairy  <br>                                     
 <br>
 <br>
 <br>
@@ -15,18 +15,18 @@
 <br>
 <br>
 <br>
-## Implementation:
-### - We use PyQT graph for GUI
-### - User browses image file, in Code we do "OpenedFile" function which takes the directory of selected image when press load image button
+## Implementation: 
+### - We use PyQT graph for GUI <br>
+### - User browses image file, in Code we do "OpenedFile" function which takes the directory of selected <br> image when press load image button <br>
 ### - Filter tab: 
-![filter tab in GUI](https://i.imgur.com/n1uv3dF.png "picture shows filter tab shape in GUI")
+![filter tab in GUI](https://i.imgur.com/n1uv3dF.png "picture shows filter tab shape in GUI") <br>
 ### - Spatial filters:
 > - ### Edge detection filters: <br> 
->> - first we convert image to gray image and show it in input image graph.
->> - we show histogram beside each image in graphs (input and output images).
->> - we use "convolve2d" function to apply convolution on original image with kernels of each filter.
->> - we made menu to allow user to choose from it type of filter.
->> - perwitt filter, we convolve image with x_perwitt kernel and y_perwitt kernel, then get magnitude and direction, then show magnitude in output image and this is result. 
+>> - first we convert image to gray image and show it in input image graph. <br>
+>> - we show histogram beside each image in graphs (input and output images). <br>
+>> - we use "convolve2d" function to apply convolution on original image with kernels of each filter. <br>
+>> - we made menu to allow user to choose from it type of filter. <br>
+>> - perwitt filter, we convolve image with x_perwitt kernel and y_perwitt kernel, then get magnitude and direction, then show magnitude in output image and this is result. <br>
 ![perwitt filter](https://i.imgur.com/IkATbFP.png "picture shows perwitt filter")
 <br>
 >> - sobel filter, we convolve image with x_sobel kernel and y_sobel kernel, then get magnitude and direction, then show magnitude in output image and this is result.
